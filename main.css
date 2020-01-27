@@ -1,0 +1,71 @@
+body {
+  font-family: "Muli", sans-serif;
+  line-height: 1.6;
+  background-color: #64b7ff;
+  margin: 0;
+}
+
+form {
+  display: block;
+  justify-content: center;
+  background-color: white;
+  text-align: center;
+  padding: 12px 20px;
+}
+
+h1 {
+  font-size: 1.3rem;
+}
+input:focus {
+  background-color: lightblue;
+}
+input[type="submit"] {
+  background-color: blue;
+  color: white;
+  justify-content: center;
+  width: 80%;
+  cursor: pointer;
+}
+.center {
+  margin: auto;
+  width: 20%;
+  padding: 80px;
+}
+
+nav {
+  background-color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin: 6px;
+  background-color: #183fb5;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+li a:hover {
+  background-color: rgb(15, 10, 90);
+  font-weight: bold;
+}
+
+.icons i {
+  padding: 7px;
+  margin: 3px;
+}
